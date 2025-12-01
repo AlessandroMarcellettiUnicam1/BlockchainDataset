@@ -125,7 +125,7 @@
     * deposit_count : 17643
 
 
-📄# License
+# LICENSE
 
 This dataset is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 You are free to share, copy, redistribute, adapt, and build upon the material for any purpose, even commercially, as long as you provide appropriate credit to the authors.
