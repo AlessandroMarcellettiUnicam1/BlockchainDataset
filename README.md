@@ -123,3 +123,13 @@
   * Number of specific storage
     * branch : 17643
     * deposit_count : 17643
+
+
+📄#License
+
+This dataset is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+You are free to share, copy, redistribute, adapt, and build upon the material for any purpose, even commercially, as long as you provide appropriate credit to the authors.
+
+For full details, see the LICENSE
+ file or visit the official license page:
+https://creativecommons.org/licenses/by/4.0/
