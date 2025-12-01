@@ -1208,6 +1208,1322 @@ Total unique internal functions: **71**
 
 </details>
 
+---
+
+## Contract Name: NounsToken
+Address : `0x9C8fF314C9Bc7F6e59A9d9225Fb22946427eDC03`
+
+<details>
+ <summary><strong>Time Range</strong></summary>
+ <br>
+
+| From   | To   |
+|--------|-------|
+| Aug 08 2021 | Oct 06 2025 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric                    | Value   |
+|--------------------------|---------|
+| Number of events         | 12,188 |
+| Number of internal txs   | 127 |
+| Number of inputs         | 11,384 |
+| Number of storage writes | 19,731 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|-------|-------|
+| OwnershipTransferred | 1 |
+| DelegateVotesChanged | 3,206 |
+| Appoval | 900 |
+| Transfer | 765 |
+| DelegateChanged | 5,950 |
+| ApprovalForAll | 1,366 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| transferOwnership | 1 |
+| transferFrom | 328 |
+| mint | 2 |
+| delegate | 5,954 |
+| safeTransferFrom | 445 |
+| unknown | 87 |
+| onERC721Received | 40 |
+| setApprovalForAll | 1,366 |
+| approve | 136 |
+| proxies | 4 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|-------|-------|
+| delegatee | 5,954 |
+| operator | 1,366 |
+| approved | 1,366 |
+| to | 909 |
+| tokenId | 909 |
+| from | 773 |
+| _data | 106 |
+| newOwner | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Vars</strong></summary>
+
+<br>
+
+| Storage Variable | Count |
+|------------------|-------|
+| _balances | 6,715 |
+| _delegates | 6,715 |
+| numCheckpoints | 1,603 |
+| _operatorApprovals | 1,367 |
+| _owners | 900 |
+| _tokenApprovals | 900 |
+| _ownedTokensIndex | 765 |
+| _ownedTokens | 765 |
+| _owner | 1 |
+
+</details>
+
+<details>
+<summary><strong>Averages</strong></summary>
+
+<br>
+
+| Metric | Value |
+|--------|-------|
+| Average internal per tx | 2.82 |
+| Average number of events | 1.48 |
+| Average state vars touched | 2.40 |
+| Average inputs | 1.38 |
+
+</details>
+
+<details>
+<summary><strong>Internal Activity Types</strong></summary>
+
+<br>
+
+| Activity | Count |
+|----------|-------|
+| CALL | 81 |
+| DELEGATECALL | 41 |
+| STATICCALL | 5 |
+
+</details>
+
+<details>
+<summary><strong>Specific Functions in Internal Calls</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| onERC721Received | 40 |
+| proxies | 4 |
+
+</details>
+
+
+<details>
+<summary><strong>Number of Contracts Called</strong></summary>
+
+<br>
+
+**28 unique contracts**
+
+Top occurrences:
+
+| Address | Count |
+|---------|-------|
+| 0xf48f2b2d2a534e402487b3ee7c18c33aec0fe5e4 | 38 |
+| 0xd9db270c1b5e3bd161e8c8503c55ceabee709552 | 37 |
+| 0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0 | 19 |
+| 0xa5409ec958c83c3f309868babaca7c86dcb077c1 | 4 |
+| 0xbf8060106d2e83c106915a575baea3dc90c892a6 | 3 |
+| ... | ... |
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|----------|----------|
+| transferOwnership | 28,630 |
+| transferFrom | 51,999,708 |
+| mint | 47,104 |
+| delegate | 279,237,884 |
+| safeTransferFrom | 69,915,973 |
+| unknown | 759,710 |
+| onERC721Received | 25,222 |
+| setApprovalForAll | 59,778,506 |
+| approve | 6,488,385 |
+| proxies | 11,128 |
+
+</details>
+
+---
+
+## Contract Name: SaleClockAuction
+Address : `0xb1690c08e213a35ed9bab7b318de14420fb57d8`
+
+<details>
+ <summary><strong>Time Range</strong></summary>
+ <br>
+
+| From   | To   |
+|--------|-------|
+| Nov 23 2017 | Dec 02 2017 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric                    | Value   |
+|--------------------------|---------|
+| Number of events         | 16,072 |
+| Number of internal txs   | 21,776 |
+| Number of inputs         | 9,737 |
+| Number of storage writes | 0 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|-------|-------|
+| AuctionSuccessful | 6,764 |
+| Transfer | 8,036 |
+| AuctionCancelled | 1,272 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| bid | 8,412 |
+| deposit | 1,584 |
+| transfer | 8,118 |
+| cancelAuction | 1,325 |
+| unknown | 306 |
+| operate | 4,181 |
+| BadSignatureV | 729 |
+| InvalidMsgValue | 751 |
+| calculateFee | 1,543 |
+| setPCFee | 1,090 |
+| mulFee | 2,857 |
+| UpdateMinerId | 622 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|-------|-------|
+| _tokenId | 9,737 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Vars</strong></summary>
+
+<br>
+
+**No storage variables**
+
+</details>
+
+<details>
+<summary><strong>Averages</strong></summary>
+
+<br>
+
+| Metric | Value |
+|--------|-------|
+| Average internal per tx | 2.67 |
+| Average number of events | 1.65 |
+| Average state vars touched | 0 |
+| Average number of inputs | 1.00 |
+
+</details>
+
+<details>
+<summary><strong>Internal Activity Types</strong></summary>
+
+<br>
+
+| Activity | Count |
+|----------|-------|
+| CALL | 21,776 |
+
+</details>
+
+<details>
+<summary><strong>Specific Functions in Internal Calls</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| transfer | 8,118 |
+| operate | 4,181 |
+| mulFee | 2,857 |
+| deposit | 1,584 |
+| calculateFee | 1,543 |
+| setPCFee | 1,090 |
+| InvalidMsgValue | 751 |
+| BadSignatureV | 729 |
+| UpdateMinerId | 622 |
+
+</details>
+
+<details>
+<summary><strong>Number of Contracts Called</strong></summary>
+
+<br>
+
+**1,464 unique contracts**
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|----------|----------|
+| bid | 372,715,561 |
+| deposit | 0 |
+| transfer | 277,210,784 |
+| cancelAuction | 47,730,574 |
+| unknown | 219,728 |
+| operate | 0 |
+| BadSignatureV | 0 |
+| InvalidMsgValue | 0 |
+| calculateFee | 0 |
+| setPCFee | 0 |
+| mulFee | 0 |
+| UpdateMinerId | 0 |
+
+</details>
+
+---
+
+## Contract Name: UniswapV2Pair
+Address : `0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc`
+
+<details>
+ <summary><strong>Time Range</strong></summary>
+ <br>
+
+| From   | To   |
+|--------|-------|
+| May 07 2020 | Sep 30 2020 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric                    | Value   |
+|--------------------------|---------|
+| Number of events         | 9,943 |
+| Number of internal txs   | 894 |
+| Number of inputs         | 20,018 |
+| Number of storage writes | 120 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|-------|-------|
+| approval | 9,700 |
+| Transfer | 227 |
+| Sync | 8 |
+| Swap | 8 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| approve | 9,708 |
+| transfer | 379 |
+| swap | 42 |
+| unknown | 212 |
+| uniswapV2Call | 32 |
+| balanceOf | 284 |
+| token0 | 25 |
+| token1 | 25 |
+| buyBaseToken | 16 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|-------|-------|
+| value | 9,939 |
+| spender | 9,708 |
+| to | 270 |
+| amount0Out | 33 |
+| amount1Out | 33 |
+| data | 33 |
+| from | 2 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Vars</strong></summary>
+
+<br>
+
+| Storage Variable | Count |
+|-----------------|-------|
+| totalSupply | 24 |
+| unlocked | 13 |
+| token0 | 13 |
+| reserve0 | 13 |
+| reserve1 | 13 |
+| blockTimestampLast | 13 |
+| token1 | 13 |
+| price0CumulativeLast | 9 |
+| price1CumulativeLast | 9 |
+
+</details>
+
+<details>
+<summary><strong>Averages</strong></summary>
+
+<br>
+
+| Metric | Value |
+|--------|-------|
+| Average internal per tx | 23.53 |
+| Average number of events | 1.00 |
+| Average state vars touched | 0.0120 |
+| Average inputs | 2.0054 |
+
+</details>
+
+<details>
+<summary><strong>Internal Activity Types</strong></summary>
+
+<br>
+
+| Activity | Count |
+|----------|-------|
+| CALL | 240 |
+| STATICCALL | 442 |
+| DELEGATECALL | 212 |
+
+</details>
+
+<details>
+<summary><strong>Specific Functions in Internal Calls</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| balanceOf | 284 |
+| transfer | 150 |
+| getPrice | 50 |
+| latestAnswer | 50 |
+| uniswapV2Call | 32 |
+| token0 | 25 |
+| token1 | 25 |
+| transferFrom | 25 |
+| buyBaseToken | 16 |
+| sellBaseToken | 9 |
+| getReserves | 9 |
+| swap | 9 |
+| feeTo | 2 |
+
+</details>
+
+<details>
+<summary><strong>Number of Contracts Called</strong></summary>
+
+<br>
+
+**26 unique contracts**  
+
+| Contract Address | Count |
+|-----------------|-------|
+| 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 | 228 |
+| 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 | 208 |
+| 0x0882477e7895bdc5cea7cb1552ed914ab157fe56 | 200 |
+| 0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc | 50 |
+| 0xdb5fe0d4ea64e3264fc1cd963462a246f079b55c | 50 |
+| 0xf79d6afbb6da890132f9d7c355e3015f15f3406f | 50 |
+| 0xecc2e61d14265f7146559ed9a2d11c8921ed1eb7 | 25 |
+| 0x990741117fa76a8cfa3d934bdd7af69b0df8e298 | 25 |
+| 0xb7277a6e95992041568d9391d09d0122023778a2 | 8 |
+| 0xd0f122729c62afe44351f6f1377f094a9d7c6077 | 7 |
+| 0x3b0f0fe3be830826d833a67cd1d7c80edf3fb49b | 4 |
+| 0x0417912b3a7af768051765040a55bb0925d4ddcf | 4 |
+| 0xb392b506552b4708bcc213be1793038008cfce74 | 4 |
+| 0xb48e0f69e6a3064f5498d495f77ad83e0874ab28 | 4 |
+| 0x85eba557c06c348395fd49e35d860f58a4f7c95a | 4 |
+| 0x2b591e99afe9f32eaa6214f7b7629768c40eeb39 | 4 |
+| 0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f | 2 |
+| 0x86fadb80d8d2cff3c3680819e4da99c10232ba0f | 2 |
+| 0xa327da5eccdadf52c9f5ed3fd640c560ad0ec8bf | 2 |
+| 0xc822d85d2dcedfaf2cefcf69dbd5588e7ffc9f10 | 2 |
+| 0x6900df49845c31dc211f5bd0f46b1c7a73922c9d | 2 |
+| 0x0e4dadf1ba9aee6379129bae2fcb09f1b385e7ef | 2 |
+| 0x308e019143b560215775a0c6efbd2673413d76e6 | 2 |
+| 0xbfd49db2f3aa70e5755794ce940aab50c446946f | 2 |
+| 0x55d5c232d921b9eaa6b37b5845e439acd04b4dba | 2 |
+| 0xa4c9b58d1ce7ea0d9b351185e0c333683ebde00b | 1 |
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|----------|----------|
+| approve | 411,709,746 |
+| transfer | 10,871,578 |
+| swap | 9,249,729 |
+| unknown | 2,655,983 |
+| uniswapV2Call | 6,437,118 |
+| balanceOf | 391,700 |
+| token0 | 27,025 |
+| token1 | 26,425 |
+| buyBaseToken | 2,753,755 |
+| getPrice | 234,200 |
+| latestAnswer | 97,300 |
+| transferFrom | 495,293 |
+| sellBaseToken | 1,756,299 |
+| skim | 201,973 |
+| burn | 90,074 |
+| feeTo | 2,028 |
+| getReserves | 10,836 |
+
+</details>
+
+---
+
+## Contract Name: BoredApeYachtClub
+Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
+
+<details>
+ <summary><strong>Time Range</strong></summary>
+ <br>
+
+| From   | To   |
+|--------|-------|
+| May 01 2021 | Jul 01 2021 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric                    | Value   |
+|--------------------------|---------|
+| Number of events         | 1,994 |
+| Number of internal txs   | 13,698 |
+| Number of inputs         | 20,876 |
+| Number of storage writes | 13,698 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|-------|-------|
+| ApprovalForAll | 4,709 |
+| Transfer | 12,163 |
+| Approval | 3,122 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| SetApprovalForAll | 4,710 |
+| mintApe | 2,095 |
+| transferFrom | 2,875 |
+| withdraw | 2 |
+| VotesAlreadyTallied | 2 |
+| approve | 200 |
+| safeTrasferFrom | 88 |
+| onERC721Received | 135 |
+| implementation | 67 |
+| fee | 134 |
+| unknown | 27 |
+| setProvenanceHash | 2 |
+| setBaseURI | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|-------|-------|
+| operator | 4,710 |
+| approved | 4,710 |
+| to | 3,163 |
+| tokenId | 3,163 |
+| from | 2,963 |
+| numberOfTokens | 2,095 |
+| _data | 69 |
+| provenanceHash | 2 |
+| baseURI | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Vars</strong></summary>
+
+<br>
+
+| Storage Variable | Count |
+|-----------------|-------|
+| _operatorApprovals | 4,709 |
+| _tokenApprovals | 3,122 |
+| MAX_APES | 1,953 |
+| startingIndexBlock | 1,953 |
+| saleIsActive | 1,953 |
+| _owner | 5 |
+| BAYC_PROVENANCE | 2 |
+| _baseURI | 1 |
+
+</details>
+
+<details>
+<summary><strong>Averages</strong></summary>
+
+<br>
+
+| Metric | Value |
+|--------|-------|
+| Average internal per tx | 4.83 |
+| Average number of events | 2.00 |
+| Average state vars touched | 1.37 |
+| Average inputs | 2.09 |
+
+</details>
+
+<details>
+<summary><strong>Internal Activity Types</strong></summary>
+
+<br>
+
+| Activity | Count |
+|----------|-------|
+| CALL | 70 |
+| STATICCALL | 134 |
+| DELEGATECALL | 134 |
+
+</details>
+
+<details>
+<summary><strong>Specific Functions in Internal Calls</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| onERC721Received | 135 |
+| fee | 134 |
+| implementation | 67 |
+| VotesAlreadyTallied | 2 |
+
+</details>
+
+<details>
+<summary><strong>Number of Contracts Called</strong></summary>
+
+<br>
+
+**6 unique contracts**
+
+| Contract Address | Count |
+|-----------------|-------|
+| 0x5b8df3131d65beb140a2700f06b78f99d0918697 | 67 |
+| 0x0f4676178b5c53ae0a655f1b19a96387e4b8b5f2 | 67 |
+| 0xc53d0a52358ff0f0e4dfe93a1f0c84d2b17e68df | 55 |
+| 0x1813c4485a36642347c244a00617377bafdbe401 | 55 |
+| 0x94eef006d2691be320632ea05c0789aae1b8b82b | 12 |
+| 0x9a5c87aa68d2199f68ca0c5e77c1127957099e54 | 12 |
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|----------|----------|
+| setApprovalForAll | 214,325,208 |
+| mintApe | 1,161,038,674 |
+| transferFrom | 245,477,426 |
+| withdraw | 60,912 |
+| VotesAlreadyTallied | 0 |
+| approve | 10,328,532 |
+| safeTrasferFrom | 12,110,789 |
+| onERC721Received | 9,219,279 |
+| implementation | 158,187 |
+| fee | 801,647 |
+| unknown | 585,776 |
+| setProvenanceHash | 145,165 |
+| setBaseURI | 30,705 |
+
+</details>
+
+---
+
+## Contract Name: TornadoRouter
+Address : `0xd90e2f925da726b50c4ed8d0fb90ad053324f31b`
+
+<details>
+ <summary><strong>Time Range</strong></summary>
+ <br>
+
+| From   | To   |
+|--------|-------|
+| Jan 05 2024 | Jul 16 2024 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric                    | Value   |
+|--------------------------|---------|
+| Number of events         | 38,843 |
+| Number of internal txs   | 20,000 |
+| Number of inputs         | 111,150 |
+| Number of storage writes | 0 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|-------|-------|
+| EncryptedNote | 9,762 |
+| Deposit | 9,762 |
+| undefined | 8,711 |
+| Withdrawl | 10,179 |
+| Trasfer | 429 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| MiMCSponge | 390,549 |
+| undefined | 159,384 |
+| instances | 40,668 |
+| transfer | 18,584 |
+| userVault | 16,842 |
+| burn | 10,231 |
+| withdraw | 10,230 |
+| verifyProof | 10,179 |
+| Transfer* | 10,179 |
+| deposit | 9,770 |
+| instanceFeeWithUpdate | 8,422 |
+| addBurnRewards | 8,422 |
+| balanceOf | 8,421 |
+| decimals | 492 |
+| denomination | 382 |
+| transferFrom | 272 |
+| getPool | 253 |
+| observe | 253 |
+| mintV3StakingToken | 3 |
+| epochToScaleToSum | 1 |
+| _withdrawAllFromPool | 1 |
+| PolyChickenFromReflection | 1 |
+| combine | 1 |
+| revokeEditor | 1 |
+| ethAmountForVaultShare | 1 |
+| _validatePosition | 1 |
+| showMaxTVL | 1 |
+| _adjustPriceDecimals | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|-------|-------|
+| _tornado | 20,000 |
+| _proof | 10,230 |
+| _root | 10,230 |
+| _nullifierHash | 10,230 |
+| _recipient | 10,230 |
+| _relayer | 10,230 |
+| _fee | 10,230 |
+| _refund | 10,230 |
+| _commitment | 9,770 |
+| _encryptedNote | 9,770 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Vars</strong></summary>
+
+<br>
+
+**0 storage variables**
+
+</details>
+
+<details>
+<summary><strong>Averages</strong></summary>
+
+<br>
+
+| Metric | Value |
+|--------|-------|
+| Average internal per tx | 35.18 |
+| Average number of events | 1.94 |
+| Average state vars touched | 0 |
+| Average inputs | 5.56 |
+
+</details>
+
+<details>
+<summary><strong>Internal Activity Types</strong></summary>
+
+<br>
+
+| Activity | Count |
+|----------|-------|
+| STATICCALL | 176,003 |
+| CALL | 57,680 |
+| DELEGATECALL | 441,256 |
+| undefined | 28,606 |
+
+</details>
+
+<details>
+<summary><strong>Specific Functions in Internal Calls</strong></summary>
+
+<br>
+
+| Function | Count |
+|----------|-------|
+| MiMCSponge | 390,549 |
+| undefined | 159,384 |
+| instances | 40,668 |
+| transfer | 18,584 |
+| userVault | 16,842 |
+| burn | 10,231 |
+| withdraw | 10,230 |
+| verifyProof | 10,179 |
+| Transfer* | 10,179 |
+| deposit | 9,770 |
+| instanceFeeWithUpdate | 8,422 |
+| addBurnRewards | 8,422 |
+| balanceOf | 8,421 |
+| decimals | 492 |
+| denomination | 382 |
+| transferFrom | 272 |
+| getPool | 253 |
+| observe | 253 |
+| mintV3StakingToken | 3 |
+| epochToScaleToSum | 1 |
+| _withdrawAllFromPool | 1 |
+| PolyChickenFromReflection | 1 |
+| combine | 1 |
+| revokeEditor | 1 |
+| ethAmountForVaultShare | 1 |
+| _validatePosition | 1 |
+| showMaxTVL | 1 |
+| _adjustPriceDecimals | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Contracts Called</strong></summary>
+
+<br>
+
+**4,056 unique contracts**
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|----------|----------|
+| deposit | 17,676,514,343 |
+| instances | 216,280,184 |
+| MiMCSponge | 6,818,975,147 |
+| withdraw | 7,281,383,145 |
+| burn | 488,657,280 |
+| instanceFeeWithUpdate | 74,509,688 |
+| addBurnRewards | 162,763,281 |
+| userVault | 50,075,666 |
+| balanceOf | 22,551,438 |
+| verifyProof | 2,449,739,214 |
+| trasnfer | 2,484,018 |
+| Transfer* | 1,526,850 |
+| undefined | 3,078,266,478 |
+| decimals | 710,448 |
+| getPool | 674,498 |
+| observe | 5,789,666 |
+| denomination | 636,056 |
+| trasferFrom | 5,881,524 |
+| mintV3StakingToken | 450 |
+| epochToScaleToSum | 150 |
+| _withdrawAllFromPool | 181,000 |
+| PolyChickenFromReflection | 181,000 |
+| combine | 150 |
+| revokeEditor | 150 |
+| ethAmountForVaultShare | 181,000 |
+| _validatePosition | 150 |
+| showMaxTVL | 150 |
+| _adjustPriceDecimals | 150 |
+
+</details>
+
+---
+
+## Contract Name: UniswapV2Router02
+Address: `0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f`
+
+<details>
+<summary><strong>Time Range</strong></summary>
+<br>
+
+| From       | To         |
+|------------|------------|
+| Mar 24 2024 | Mar 30 2024 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+<br>
+
+| Metric                    | Value      |
+|---------------------------|------------|
+| Number of events          | 276,891    |
+| Number of internal txs    | 453,062    |
+| Number of inputs          | 337,491    |
+| Number of storage writes  | 0          |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+<br>
+
+| Event | Count |
+|-------|-------|
+| Trasfer | 113,859 |
+| Sync | 47,713 |
+| Burn | 7,037 |
+| Trasferred | 5,933 |
+| Withdrawal | 1,477 |
+| Swap | 38,989 |
+| Approval | 18,878 |
+| undefined | 11,048 |
+| Deposit | 14,714 |
+| Sent | 753 |
+| Mint | 1,695 |
+| Approved | 438 |
+| VoterVotesChanged | 122 |
+| DelegateVotesChanged | 61 |
+| PairCreated | 252 |
+| TrasferByPartition | 449 |
+| NewEra | 30 |
+| Minted | 30 |
+| SwapAndLiquify | 7 |
+| DelegatePowerChanged | 68 |
+| TaxedTrasnfer | 1 |
+| BotTax | 32 |
+| NewReserveRate | 2 |
+| BalanceTrasfer | 2 |
+| InterestStreamRedirected | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+<br>
+
+| Function | Count |
+|----------|-------|
+| SwapTokensForExactTokens | 12,190 |
+| removeLiquidityETH | 1,488 |
+| transferFrom | 34,629 |
+| burn | 7,053 |
+| transfer | 107,887 |
+| withdraw | 14,783 |
+| balanceOf | 119,860 |
+| feeTo | 8,748 |
+| unknown | 535 |
+| swapExactTokensForTokens | 16,539 |
+| getReserves | 58,780 |
+| swap | 39,657 |
+| swaExactTokensForETH | 8,511 |
+| undefined | 26,348 |
+| childImplementation | 3,124 |
+| swapETHFroExactTokens | 2,579 |
+| deposit | 15,141 |
+| swapExactETHForTokens | 13,298 |
+| removeLiquidityWithPermit | 637 |
+| permit | 5,516 |
+| getInterfaceImplementer | 2,545 |
+| addLiquidityETH | 1,542 |
+| getPair | 1,740 |
+| mint | 1,695 |
+| removeLiquidityETHWithPermit | 4,844 |
+| isApprovedForwarder | 19 |
+| swapExactTokensForETHSupportingFeeOnTransferTokens | 1,093 |
+| sharesForAmount | 114 |
+| totalShares | 310 |
+| getTotalEtherClaimOf | 196 |
+| shares | 196 |
+| swapExactETHTForTokensSupportingFeeOnTransgerTokens | 995 |
+| removeLiquidityETHSupportingFeeOnTransferTokens | 15 |
+| handleTransfer | 13 |
+| handleBalanceCalculation | 14 |
+| userInformation | 14 |
+| liquidityRebasingPermitted | 13 |
+| IpTokensInPair | 13 |
+| swapExactTokensForTokensSupportingFeeOnTransferTokens | 345 |
+| removeLiquidity | 127 |
+| getApp | 156 |
+| onTransfer | 185 |
+| swapTokensForExactETH | 9 |
+| implementation | 54 |
+| createPair | 257 |
+| initialize | 252 |
+| migrator | 260 |
+| isForwarderFor | 6 |
+| nftBuyback | 1 |
+| setMessageSender | 409 |
+| requireSystemActive | 47 |
+| getAddress | 94 |
+| debtBalanceOf | 47 |
+| allowance | 203 |
+| setAllowance | 200 |
+| setBalanceOF | 818 |
+| _emit | 63 |
+| addLiquidity | 236 |
+| Log3 | 346 |
+| delegateToImplementation | 34 |
+| updatePendingRewards | 20 |
+| otTokens | 18 |
+| checkYieldContractStatus | 10 |
+| yieldTokenHolders | 4 |
+| redeemRewards | 4 |
+| totalSupply | 4 |
+| calimComp | 6 |
+| _performTransferFromWithReference | 1 |
+| _forwardTransferFromWithReference | 1 |
+| proxyTransgerFromWIthReference | 1 |
+| emitTransfer | 3 |
+| proxies | 1 |
+| symbols | 1 |
+| versions | 1 |
+| paused | 6 |
+| isBlacklsted | 14 |
+| transferFromDisabled | 2 |
+| token0 | 1 |
+| token1 | 1 |
+| fee | 1 |
+| tokensReceived | 30 |
+| subBalance | 7 |
+| WETH | 22 |
+| removeLiquidityETHWithPermitSupportingFeeOnTransferTokens | 37 |
+| latestRoundData | 8 |
+| TOKEN_PRESALE_LIMIT | 1 |
+| macSecsLeftInWaintingPeriod | 16 |
+| setIementOwing | 16 |
+| requireSynthActive | 16 |
+| getMaxTimestamp | 16 |
+| getUIntValue | 32 |
+| getLengthOfEntries | 16 |
+| transferAllowed | 4 |
+| Transfer | 234 |
+| claimRewards | 2 |
+| getScaledUserBalanceAndSupply | 2 |
+| update | 5 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+<br>
+
+| Input | Count |
+|-------|-------|
+| to | 64,420 |
+| deadline | 64,420 |
+| path | 55,505 |
+| amountOutMin | 40,723 |
+| amountIn | 26,458 |
+| amountOut | 14,778 |
+| amountInMax | 12,199 |
+| token | 7,919 |
+| amountTokenMin | 7,919 |
+| amountETHMin | 7,919 |
+| liquidity | 7,148 |
+| approveMax | 5,518 |
+| v | 5,518 |
+| r | 5,518 |
+| s | 5,518 |
+| amountTokenDesired | 1,535 |
+| tokenA | 1,000 |
+| tokenB | 1,000 |
+| amountAMin | 1,000 |
+| amountBMin | 1,000 |
+| amountADesired | 236 |
+| amountBDesired | 236 |
+| _factory | 2 |
+| _WETH | 2 |
+
+</details>
+
+<details>
+<summary><strong>Number of Storage Variables</strong></summary>
+<br>
+
+**0 storage variables**
+
+</details>
+
+<details>
+<summary><strong>Averages</strong></summary>
+<br>
+
+| Metric | Value |
+|--------|-------|
+| Average Internal per transaction | 7.16 |
+| Average number of events | 4.28 |
+| Average state vars touched | 0 |
+| Average number of inputs | 5.22 |
+
+</details>
+
+<details>
+<summary><strong>Internal Activity Types</strong></summary>
+<br>
+
+| Activity | Count |
+|----------|-------|
+| CALL | 196,691 |
+| undefined | 32,095 |
+| STATICCALL | 199,201 |
+| DELEGATECALL | 24,818 |
+| CREATE2 | 257 |
+
+</details>
+
+<details>
+<summary><strong>Number of Contracts Called</strong></summary>
+<br>
+
+**9,784 unique contracts**
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+<br>
+
+| Function | Gas Used |
+|----------|----------|
+| swapTokensForExactTokens | 622,394,072 |
+| removeLiquidityETH | 298,069,483 |
+| transferFrom | 838,992,071 |
+| burn | 1,083,617,158 |
+| transfer | 1,584,521,898 |
+| withdraw | 136,509,821 |
+| balanceOf | 109,209,404 |
+| feeTo | 204,409,800 |
+| unknown | 480,188,659 |
+| swapExactTokensForTokens | 1,594,747,008 |
+| getReserves | 147,902,441 |
+| swap | 2,279,912,488 |
+| swapExactTokensForETH | 949,068,742 |
+| undefined | 366,930,023 |
+| childImplementation | 8,237,232 |
+| swapETHForExactTokens | 312,544,952 |
+| deposit | 365,866,940 |
+| swapExactETHForTokens | 1,259,064,730 |
+| removeLiquidityWithPermit | 130,488,049 |
+| permit | 267,556,855 |
+| getInterfaceImplementer | 7,487,390 |
+| addLiquidityETH | 680,776,350 |
+| getPair | 4,598,480 |
+| mint | 165,062,902 |
+| removeLiquidityETHWithPermit | 1,159,606,207 |
+| isApprovedForwarder | 51,490 |
+| swapExactTokensForETHSupportingFeeOnTransferTokens | 13,138,037 |
+| sharesForAmoutn | 1,084,014 |
+| totalShares | 387,829 |
+| getTotalEtherCalimOf | 837,828 |
+| shares | 172,864 |
+| swapExactETHForTokensSupportingFeeOnTrasferTokens | 127,817,584 |
+| removeLiquidityETHSupportingFeeOnTransferTokens | 3,030,033 |
+| handleTransfer | 715,955 |
+| handleBalanceCalculation | 106,020 |
+| userInformation | 45,632 |
+| liquidityRebasingPermitted | 5,304 |
+| IpTokensInPair | 5,135 |
+| swapExactTokensForTokensSupportingFeeOnTransferTokens | 46,577,552 |
+| removeLiquidity | 23,316,419 |
+| getApp | 634,974 |
+| onTransfer | 3,326,034 |
+| swapTokensForExactETH | 1,183,139 |
+| implementaion | 137,451 |
+| createPair | 518,737,636 |
+| initialize | 11,271,456 |
+| migrator | 607,620 |
+| isForwarderFor | 16,252 |
+| nftBuyback | 3,000 |
+| setMessageSender | 2,908,554 |
+| requireSystemActive | 87,688 |
+| getAddress | 340,479 |
+| debtBalanceOf | 375,193 |
+| allowance | 531,346 |
+| setAllowance | 1,122,330 |
+| setBalanceOf | 4,420,454 |
+| _emit | 170,478 |
+| addLiquidity | 171,809,381 |
+| Log3 | 919,322 |
+| delegateToImplementation | 198,685 |
+| updatePendingRewards | 1,180,690 |
+| otTokens | 22,420 |
+| checkYieldContractStatus | 30,860 |
+| yieldTokenHolders | 10,952 |
+| redeemRewards | 228,594 |
+| totalSupply | 9,464 |
+| claimComp | 345,425 |
+| _performTransferFromWithReference | 82,204 |
+| _forwardTransferFromWithReference | 71,456 |
+| proxyTransferFromWithReference | 62,566 |
+| emitTransfer | 33,405 |
+| proxies | 975 |
+| symbols | 2,428 |
+| version | 459 |
+| paused | 25,662 |
+| isBlacklisted | 42,389 |
+| transferFromDisabled | 5,598 |
+| token0 | 449 |
+| token1 | 381 |
+| fee | 247 |
+| tokensReceived | 31,050 |
+| subBalance | 34,803 |
+| addBalance | 91,389 |
+| WETH | 5,973 |
+| removeLiquidityETHWithPermitSupportingFeeOnTransferTokens | 10,512,075 |
+| latestRounData | 92,762 |
+| TOKEN_PRESALE_LIMIT | 3,000 |
+| maxSecsLeftWaitingPeriod | 263,576 |
+| settlementOwinf | 381,500 |
+| requireSynthActive | 56,624 |
+| getMaxTimestamp | 46,704 |
+| getUintValue | 68,576 |
+| getLengthOfEntries | 12,960 |
+| transferAllowed | 201,346 |
+| Transfer | 57,228,128 |
+| claimRewards | 60,212 |
+| getScaledUserBalanceAndSupply | 14,590 |
+| update | 223,166 |
+
+</details>
+
+---
+
+
 # LICENSE
 
 This dataset is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
