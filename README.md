@@ -200,10 +200,10 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Metric                   | Count  |
 |--------------------------|--------|
-| Number of events         | 17,378 |
-| Number of internal txs   | 4,451  |
-| Number of inputs         | 21,086 |
-| Number of storage writes | 0      |
+| Number of events         | 2,333 |
+| Number of internal txs   | 640  |
+| Number of inputs         | 2,557 |
+| Number of storage writes | 1      |
 
 </details>
 
@@ -227,32 +227,44 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 <br>
 
-| Function                                 | Count |
-|------------------------------------------|-------|
-| setGeneScienceAddress                    | 1     |
-| isGeneScience                            | 1     |
-| setSiringClockAuction                    | 1     |
-| setSaleAuctionAddress                    | 1     |
-| isSaleClockAuction                       | 1     |
-| setCEO                                   | 1     |
-| setCFO                                   | 1     |
-| createPromoKitty                         | 3,000 |
-| unpause                                  | 1     |
-| createAuction                            | 1,739 |
-| trasferFrom                              | 1,739 |
-| createSiringAuction                      | 833   |
-| breedWithAuto                            | 2,359 |
-| giveBirth                                | 2,460 |
-| mixGenes                                 | 2,342 |
-| setMarketAdminPermissionChecker          | 11,674 |
-| bidOnSiringAuction                       | 376   |
-| getCurrentPrice                          | 367   |
-| bid                                      | 344   |
-| unknown                                  | 350   |
-| transfer                                 | 345   |
-| setAutoBirthFee                          | 1     |
-| tokenLogic                               | 587   |
-| cashout                                  | 423   |
+|Activity                                 |    Count|
+|------------------------------------------|----------------------------|
+|transfer | 742|
+|transferFrom | 431|
+|ownerOf | 210|
+|execute | 145|
+|Transfer* | 126|
+|mixGenes | 95|
+|kittyIndexToApproved | 74|
+|getKitty | 72|
+|createAuction | 65|
+|invoke1CosignerSends | 48|
+|validateOrder | 42|
+|safeTransferFrom | 24|
+|0xa06fd52f | 18|
+|onERC1155Received | 15|
+|proxies | 5|
+|breedWithAuto | 4|
+|invoke | 4|
+|0xf713246c | 3|
+|owner | 3|
+|0x4eb527e9 | 2|
+|0x202b4997 | 2|
+|0x10091260 | 2|
+|0x4c7d53da | 2|
+|0xb1c17099 | 2|
+|0x0567da45 | 2|
+|0x23b872dd | 2|
+|usedWeights | 2|
+|cancelAuction | 2|
+|0x906ba091 | 2|
+|sendMessageToChild | 2|
+|syncState | 2|
+|0xf2c92568 | 1|
+|0x06a2fb5d | 1|
+|0x828c5651 | 1|
+|0x5239c0f9 | 1|
+
 
 </details>
 
@@ -261,22 +273,41 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 <br>
 
-| Input Name     | Count |
-|----------------|-------|
-| _matronId      | 5,195 |
-| _genes         | 3,000 |
-| _owner         | 3,000 |
-| _sireId        | 2,735 |
-| _kittyId       | 1,786 |
-| _startingPrice | 1,786 |
-| _endingPrice   | 1,786 |
-| _duration      | 1,786 |
-| _address       | 3     |
-| _to            | 3     |
-| _tokenId       | 3     |
-| _newCEO        | 1     |
-| _newCFO        | 1     |
-| val            | 1     |
+|Input Name                               |    Count|
+|------------------------------------------|----------------------------|
+|_tokenId | 598|
+|_to | 477|
+|_matronId | 171|
+|_kittyIds | 168|
+|_destinationAddresses | 134|
+|parameters,considerationToken,considerationIdentifier,considerationAmount,offerer,zone,offerToken,offerIdentifier,offerAmount,basicOrderType,startTime,endTime,zoneHash,salt,offererConduitKey,fulfillerConduitKey,totalOriginalAdditionalRecipients,additionalRecipients,signature | 81|
+|_sireId | 76|
+|_kittyId | 64|
+|_startingPrice | 64|
+|_endingPrice | 64|
+|_duration | 64|
+|,parameters,numerator,denominator,signature,extraData | 55|
+|,orderIndex,side,index,identifier,criteriaProof | 55|
+|recipient | 55|
+|data | 49|
+|v | 48|
+|r | 48|
+|s | 48|
+|nonce | 48|
+|authorizedAddress | 48|
+|,offerComponents,considerationComponents | 38|
+|,orderIndex,itemIndex | 36|
+|fulfillerConduitKey | 19|
+|maximumFulfilled | 18|
+|items,items,recipient,validateERC721Receiver | 3|
+|conduitKey | 3|
+|,parameters,signature | 2|
+|to | 2|
+|vaultId | 1|
+|amount | 1|
+|specificIds | 1|
+|swapCallData | 1|
+|val | 1|
 
 </details>
 
@@ -287,7 +318,7 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Storage | Count |
 |---------|-------|
-| (none)  | 0     |
+| singleton  | 1     |
 
 </details>
 
