@@ -189,7 +189,7 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | From        | To          |
 |-------------|-------------|
-| Nov 23 2017 | Nov 24 2017 |
+| Oct 21 2023 | Dec 02 2023 |
 
 </details>
 
@@ -200,10 +200,10 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Metric                   | Count  |
 |--------------------------|--------|
-| Number of events         | 17,378 |
-| Number of internal txs   | 4,451  |
-| Number of inputs         | 21,086 |
-| Number of storage writes | 0      |
+| Number of events         | 3,276 |
+| Number of internal txs   | 1,866 |
+| Number of inputs         | 2,557 |
+| Number of storage writes | 1 |
 
 </details>
 
@@ -214,11 +214,26 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Event             | Count |
 |-------------------|-------|
-| Birth             | 5,342 |
-| Transfer          | 7,412 |
-| AuctionCreated    | 1,732 |
-| Pregnant          | 2,557 |
-| AuctionSuccessful | 335   |
+| Transfer          | 1,518 |
+| OrderFulfilled    | 414 |
+| Approval          | 346 |
+| Birth             | 190 |
+| AuctionSuccessful | 136 |
+| BurnTokenAndWithdrawKitty | 134 |
+| AuctionCreated    | 129 |
+| InvocationSuccess | 96 |
+| Pregnant          | 80 |
+| DepositKittyAndMintToken | 74 |
+| OrdersMatched     | 70 |
+| AuctionCancelled  | 54 |
+| TransferSingle    | 16 |
+| undefined         | 7 |
+| Invoked           | 4 |
+| Refund            | 2 |
+| TransactionExecuted | 2 |
+| StateSynced       | 2 |
+| Buy               | 1 |
+| DustReturned      | 1 |
 
 </details>
 
@@ -229,30 +244,29 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Function                                 | Count |
 |------------------------------------------|-------|
-| setGeneScienceAddress                    | 1     |
-| isGeneScience                            | 1     |
-| setSiringClockAuction                    | 1     |
-| setSaleAuctionAddress                    | 1     |
-| isSaleClockAuction                       | 1     |
-| setCEO                                   | 1     |
-| setCFO                                   | 1     |
-| createPromoKitty                         | 3,000 |
-| unpause                                  | 1     |
-| createAuction                            | 1,739 |
-| trasferFrom                              | 1,739 |
-| createSiringAuction                      | 833   |
-| breedWithAuto                            | 2,359 |
-| giveBirth                                | 2,460 |
-| mixGenes                                 | 2,342 |
-| setMarketAdminPermissionChecker          | 11,674 |
-| bidOnSiringAuction                       | 376   |
-| getCurrentPrice                          | 367   |
-| bid                                      | 344   |
-| unknown                                  | 350   |
-| transfer                                 | 345   |
-| setAutoBirthFee                          | 1     |
-| tokenLogic                               | 587   |
-| cashout                                  | 423   |
+| approve                                  | 330 |
+| transfer                                 | 147 |
+| burnTokensAndWithdrawKitties             | 134 |
+| giveBirth                                | 95 |
+| fulfillBasicOrder_efficient_6GL6yc       | 79 |
+| breedWithAuto                            | 76 |
+| bid                                      | 68 |
+| createSaleAuction                        | 59 |
+| cancelAuction                            | 53 |
+| invoke1CosignerSends                     | 48 |
+| matchAdvancedOrders                      | 36 |
+| depositKittiesAndMintTokens              | 34 |
+| fulfillAvailableAdvancedOrders           | 18 |
+| unknown                                  | 9 |
+| createSiringAuction                      | 5 |
+| bulkTransfer                             | 3 |
+| fulfillBasicOrder                        | 2 |
+| matchOrders                              | 2 |
+| fulfillAdvancedOrder                     | 1 |
+| buyAndRedeem                             | 1 |
+| setAutoBirthFee                          | 1 |
+| execTransaction                          | 1 |
+| execute                                  | 1 |
 
 </details>
 
@@ -263,20 +277,55 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Input Name     | Count |
 |----------------|-------|
-| _matronId      | 5,195 |
-| _genes         | 3,000 |
-| _owner         | 3,000 |
-| _sireId        | 2,735 |
-| _kittyId       | 1,786 |
-| _startingPrice | 1,786 |
-| _endingPrice   | 1,786 |
-| _duration      | 1,786 |
-| _address       | 3     |
-| _to            | 3     |
-| _tokenId       | 3     |
-| _newCEO        | 1     |
-| _newCFO        | 1     |
-| val            | 1     |
+| _tokenId       | 598 |
+| _to            | 477 |
+| _matronId      | 171 |
+| _kittyIds      | 168 |
+| _destinationAddresses | 134 |
+| parameters,considerationToken,considerationIdentifier,considerationAmount,offerer,zone,offerToken,offerIdentifier,offerAmount,basicOrderType,startTime,endTime,zoneHash,salt,offererConduitKey,fulfillerConduitKey,totalOriginalAdditionalRecipients,additionalRecipients,signature | 81 |
+| _sireId        | 76 |
+| _kittyId       | 64 |
+| _startingPrice | 64 |
+| _endingPrice   | 64 |
+| _duration      | 64 |
+| ,parameters,numerator,denominator,signature,extraData | 55 |
+| ,orderIndex,side,index,identifier,criteriaProof | 55 |
+| recipient      | 55 |
+| data           | 49 |
+| v              | 48 |
+| r              | 48 |
+| s              | 48 |
+| nonce          | 48 |
+| authorizedAddress | 48 |
+| ,offerComponents,considerationComponents | 38 |
+| ,orderIndex,itemIndex | 36 |
+| fulfillerConduitKey | 19 |
+| maximumFulfilled | 18 |
+| items,items,recipient,validateERC721Receiver | 3 |
+| conduitKey     | 3 |
+| ,parameters,signature | 2 |
+| to             | 2 |
+| vaultId        | 1 |
+| amount         | 1 |
+| specificIds    | 1 |
+| swapCallData   | 1 |
+| val            | 1 |
+| value          | 1 |
+| operation      | 1 |
+| safeTxGas      | 1 |
+| baseGas        | 1 |
+| gasPrice       | 1 |
+| gasToken       | 1 |
+| refundReceiver | 1 |
+| signatures     | 1 |
+| _wallet        | 1 |
+| _data          | 1 |
+| _nonce         | 1 |
+| _signatures    | 1 |
+| _gasPrice      | 1 |
+| _gasLimit      | 1 |
+| _refundToken   | 1 |
+| _refundAddress | 1 |
 
 </details>
 
@@ -298,10 +347,10 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Metric                          | Value |
 |--------------------------------|-------|
-| Average internal per tx        | 2.22  |
-| Average number of events       | 1.74  |
-| Average state vars touched     | 0     |
-| Average number of inputs       | 2.11  |
+| Average internal per tx        | 1.55 |
+| Average number of events       | 4.29 |
+| Average state vars touched     | 0.0 |
+| Average number of inputs       | 2.13 |
 
 </details>
 
@@ -312,7 +361,9 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Internal Call Type | Count |
 |--------------------|-------|
-| CALL               | 9,902 |
+| CALL               | 1,110 |
+| STATICCALL         | 705 |
+| DELEGATECALL       | 51 |
 
 </details>
 
@@ -323,18 +374,220 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Function                         | Count |
 |----------------------------------|-------|
-| mixGenes                         | 2,342 |
-| createAuction                    | 1,739 |
-| transferFrom                     | 1,739 |
-| setMarketAdminPermissionChecker  | 1,674 |
-| tokenLogic                       | 587   |
-| cashout                          | 423   |
-| getCurrentPrice                  | 367   |
-| bid                              | 344   |
-| transfer                         | 342   |
-| isGeneScience                    | 1     |
-| isSiringClockAuction             | 1     |
-| isSaleClockAuction               | 1     |
+| transfer                         | 692 |
+| ownerOf                          | 208 |
+| execute                          | 143 |
+| Transfer*                        | 126 |
+| mixGenes                         | 95 |
+| kittyIndexToApproved             | 74 |
+| transferFrom                     | 74 |
+| getKitty                         | 72 |
+| createAuction                    | 64 |
+| invoke1CosignerSends             | 48 |
+| validateOrder                    | 42 |
+| 0xa06fd52f                       | 18 |
+| 0xf713246c                       | 3 |
+| 0x4eb527e9                       | 2 |
+| 0x202b4997                       | 2 |
+| 0x10091260                       | 2 |
+| 0x4c7d53da                       | 2 |
+| 0xb1c17099                       | 2 |
+| 0x0567da45                       | 2 |
+| 0xf2c92568                       | 1 |
+| 0x06a2fb5d                       | 1 |
+| 0x828c5651                       | 1 |
+| 0x5239c0f9                       | 1 |
+| 0x0ef82558                       | 1 |
+| 0xf158aa5b                       | 1 |
+| 0x7d09c1fb                       | 1 |
+| 0x1795bb4e                       | 1 |
+| 0x7089f658                       | 1 |
+| 0x7672c3fb                       | 1 |
+| 0x183eaf0c                       | 1 |
+| 0xf65043a1                       | 1 |
+| 0x2ed95c94                       | 1 |
+| 0x36016c7a                       | 1 |
+| 0x17b1f506                       | 1 |
+| 0xc3c104a6                       | 1 |
+| 0xfb81ad88                       | 1 |
+| 0xef9195e4                       | 1 |
+| 0xdb1f5044                       | 1 |
+| 0x40efce28                       | 1 |
+| 0xf8e0d1b2                       | 1 |
+| 0xa7a3427e                       | 1 |
+| 0xd34f5e83                       | 1 |
+| 0x22172627                       | 1 |
+| 0xc7ceabe9                       | 1 |
+| 0xc1a22011                       | 1 |
+| 0x456279a3                       | 1 |
+| 0x88d9e5fe                       | 1 |
+| 0x098747cc                       | 1 |
+| 0x1f4bf6cb                       | 1 |
+| 0xe08bf487                       | 1 |
+| 0xf1de3138                       | 1 |
+| 0x805707a1                       | 1 |
+| 0x578b9234                       | 1 |
+| 0xc8333a5d                       | 1 |
+| 0x18b81807                       | 1 |
+| 0x1a5506be                       | 1 |
+| 0x4c71cdd6                       | 1 |
+| 0x01a1ce8f                       | 1 |
+| 0x1af6669d                       | 1 |
+| 0x447f56ae                       | 1 |
+| 0x02ffa59d                       | 1 |
+| 0xc8ec5b4e                       | 1 |
+| 0x8c3fea71                       | 1 |
+| 0x6da30f89                       | 1 |
+| 0x4b0077b5                       | 1 |
+| 0xe4cba599                       | 1 |
+| 0x507dab22                       | 1 |
+| 0xcfba99a9                       | 1 |
+| 0xffa1445c                       | 1 |
+| 0xc4b276d3                       | 1 |
+| 0x8d3befda                       | 1 |
+| 0xb3f90e83                       | 1 |
+| 0x763fb4f8                       | 1 |
+| 0x1ae1b4f3                       | 1 |
+| 0x794d100e                       | 1 |
+| 0x23285853                       | 1 |
+| 0xdf0bee3f                       | 1 |
+| 0x77e2f271                       | 1 |
+| 0xfb8160b3                       | 1 |
+| 0x3db097fd                       | 1 |
+| 0x3a9a7b94                       | 1 |
+| 0x2e7c0eea                       | 1 |
+| 0x59be58ec                       | 1 |
+| 0x49e838e7                       | 1 |
+| 0x9a1c0180                       | 1 |
+| 0x323a6def                       | 1 |
+| 0x047d40cd                       | 1 |
+| 0x48364352                       | 1 |
+| 0xaeca77f8                       | 1 |
+| 0x39c98a1d                       | 1 |
+| 0xfe9d2d5d                       | 1 |
+| 0xffe3dece                       | 1 |
+| 0x786fdecf                       | 1 |
+| 0x386b3bf7                       | 1 |
+| 0xbdce35dd                       | 1 |
+| 0xcaa97abd                       | 1 |
+| 0xa527208f                       | 1 |
+| 0x792a0df9                       | 1 |
+| 0x771542db                       | 1 |
+| 0x149a15aa                       | 1 |
+| 0x9cd3e1e0                       | 1 |
+| 0xd7614eda                       | 1 |
+| 0x7aa5f5dd                       | 1 |
+| 0xdaad1dd5                       | 1 |
+| 0xc13a34fc                       | 1 |
+| 0xd067a379                       | 1 |
+| 0x052eb4f1                       | 1 |
+| 0x1038a093                       | 1 |
+| 0xe94482a0                       | 1 |
+| 0x24f3e1f2                       | 1 |
+| 0xdb05fd57                       | 1 |
+| 0xe76610fc                       | 1 |
+| 0x14887a5e                       | 1 |
+| 0xd32b4d40                       | 1 |
+| 0xdfe0181e                       | 1 |
+| 0x3eb4a3c2                       | 1 |
+| 0x0663d28a                       | 1 |
+| 0x498f5c14                       | 1 |
+| 0xa90cf004                       | 1 |
+| 0x414a1c9a                       | 1 |
+| 0x321897f9                       | 1 |
+| 0xcba68516                       | 1 |
+| 0x6537a040                       | 1 |
+| 0x48aec9a9                       | 1 |
+| 0x341910a4                       | 1 |
+| 0x1bf8f9b4                       | 1 |
+| 0x76237c86                       | 1 |
+| 0x1daaa6ac                       | 1 |
+| 0xd727c768                       | 1 |
+| 0x1bab2918                       | 1 |
+| 0xefdb4221                       | 1 |
+| 0x817f6489                       | 1 |
+| 0x7c7c95b4                       | 1 |
+| 0x5aa196eb                       | 1 |
+| 0x3b127bda                       | 1 |
+| 0x06379988                       | 1 |
+| 0x35f31b75                       | 1 |
+| 0x50067755                       | 1 |
+| 0xc9b52ed2                       | 1 |
+| 0xf338fe9e                       | 1 |
+| 0x9be69f25                       | 1 |
+| 0xab75724e                       | 1 |
+| 0x53361cbc                       | 1 |
+| 0x1cf290dc                       | 1 |
+| 0xe7c6c7da                       | 1 |
+| 0xf642fc68                       | 1 |
+| 0xa876410f                       | 1 |
+| 0x6130b1ac                       | 1 |
+| 0x91037a8b                       | 1 |
+| 0xaeff8705                       | 1 |
+| 0x81c37b79                       | 1 |
+| 0xc566773a                       | 1 |
+| execTransaction                  | 1 |
+| 0x7c60f070                       | 1 |
+| 0x1a49477c                       | 1 |
+| 0x39cf856f                       | 1 |
+| 0x51ffe5f7                       | 1 |
+| 0x4b67ba6d                       | 1 |
+| 0x5324b3fe                       | 1 |
+| 0x290dae5b                       | 1 |
+| 0x09f8da96                       | 1 |
+| 0x33908f08                       | 1 |
+| 0xbfcdf119                       | 1 |
+| 0xe98d52f4                       | 1 |
+| 0xaccf5f8c                       | 1 |
+| 0xd8ca4432                       | 1 |
+| 0x4603417f                       | 1 |
+| 0x829562bc                       | 1 |
+| 0xeeb0d11c                       | 1 |
+| 0xaab1bd8b                       | 1 |
+| 0x86bcc6ec                       | 1 |
+| guardianCount                    | 1 |
+| getGuardians                     | 1 |
+| owner                            | 1 |
+| 0x8da5cb5b                       | 1 |
+| multiCallWithGuardians           | 1 |
+| invoke                           | 1 |
+| 0x4478b8a0                       | 1 |
+| 0xc8a69734                       | 1 |
+| 0xe02c6f8d                       | 1 |
+| 0x66bc267d                       | 1 |
+| 0x8c21e275                       | 1 |
+| 0x87cd6cbb                       | 1 |
+| 0xb7085528                       | 1 |
+| 0x45d86ffa                       | 1 |
+| 0x2120ccc3                       | 1 |
+| 0xa9a81697                       | 1 |
+| 0x6415a1d5                       | 1 |
+| 0x4608f56b                       | 1 |
+| 0x1fbed3a6                       | 1 |
+| 0x227f7448                       | 1 |
+| 0x7d07a124                       | 1 |
+| 0xa41c7a7e                       | 1 |
+| 0x9a9ef36a                       | 1 |
+| 0xd2fcd46e                       | 1 |
+| 0x66faa899                       | 1 |
+| 0x29d73e52                       | 1 |
+| 0x55d2a1e2                       | 1 |
+| 0xd275ab44                       | 1 |
+| 0x3736f903                       | 1 |
+| 0x510344b7                       | 1 |
+| 0xf891e37d                       | 1 |
+| 0xa7684c17                       | 1 |
+| 0x69e06bca                       | 1 |
+| 0x97417270                       | 1 |
+| 0x560f5e3d                       | 1 |
+| 0xffde7020                       | 1 |
+| 0x98ca61e9                       | 1 |
+| 0x7039ba0e                       | 1 |
+| 0xe80b50fd                       | 1 |
+| 0x3e7ec2ef                       | 1 |
+| 0xb112dea0                       | 1 |
+| 0x20f2750d                       | 1 |
+| 0xe86cf2d5                       | 1 |
 
 </details>
 
@@ -345,23 +598,22 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Metric                  | Value |
 |------------------------|--------|
-| Unique contracts count | 61     |
+| Unique contracts count | 162 |
 
 ### Contract Address Occurrences
 
 | Address | Count |
 |---------|-------|
-| 0x06012c8cf97bead5deae237070f9587f8e7a266d | 2423 |
-| 0xe262021a78e238ed9d70492a2c1204fe2b83152b | 58 |
-| 0xab7e97c3f00d23ed3d0b15bad55539f1163a1be8 | 33 |
-| 0x77efe0036a742b8c3f31fa87dc28e277f3c21d4b | 29 |
-| 0xcca5859e65518124a7d0452d4338a61953629448 | 12 |
-| 0x82d0785a810cb6436a71621ff6dcf2bcbea3cf35 | 12 |
-| 0x730fafe1108f507b454b6eb59f0eec1f1ba31935 | 11 |
-| 0x8b104344f397afc33ee55c743a0fbd7d956201cd | 11 |
-| 0x479c388aa97638e6e2efeb62cb3924fcb00a5285 | 11 |
-| 0x51c3016d6699480ec6becdf2155079c27ebae040 | 10 |
-| 0xdf290293c4a4d6ebe38fd7085d7721041f927e0a | 10 |
+| 0x06012c8cf97bead5deae237070f9587f8e7a266d | 1,402 |
+| 0x0000000000000000000000000000000000000001 | 179 |
+| 0xb1690c08e213a35ed9bab7b318de14420fb57d8c | 178 |
+| 0x0000000000000000000000000000000000000004 | 168 |
+| 0x1e0049783f008a0085193e00003d00cd54003c71 | 141 |
+| 0x00000000000000adc04c56bf30ac9d3c0aaf14dc | 138 |
+| 0xa10740ff9ff6852eac84cdcff9184e1d6d27c057 | 136 |
+| 0x0000a26b00c1f0df003000390027140000faa719 | 97 |
+| 0xb77feddb7e627a78140a2a32cac65a49ed1dba8e | 95 |
+| 0xab5622d7da96c571c6abe08e4b85e462eb666e4f | 95 |
 | ... remaining addresses ... |
 
 </details>
@@ -373,32 +625,29 @@ Address: `0x06012c8cf97bead5deae237070f9587f8e7a266d`
 
 | Function                      | Gas Used     |
 |-------------------------------|--------------|
-| giveBirth                     | 607,237,291  |
-| createPromoKitty              | 416,650,928  |
-| mixGenes                      | 239,241,769  |
-| createAuction                 | 186,787,933  |
-| breedWithAuto                 | 179,791,029  |
-| createSaleAuction             | 131,101,584  |
-| createSiringAuction           | 113,371,699  |
-| transferFrom                  | 53,065,415   |
-| bidOnSiringAuction            | 40,090,526   |
-| bid                           | 23,517,713   |
-| transfer                      | 11,186,229   |
-| getCurrentPrice               | 745,495      |
-| unknown                       | 419,510      |
-| setSaleAuctionAddress         | 46,769       |
-| setGeneScienceAddress         | 46,134       |
-| setSiringAuctionAddress       | 46,045       |
-| setCFO                        | 44,311       |
-| unpause                       | 29,533       |
-| setCEO                        | 29,091       |
-| setAutoBirthFee               | 27,818       |
-| isSaleClockAuction            | 646         |
-| isSiringClockAuction          | 558         |
-| isGeneScience                 | 429         |
-| setMarketAdminPermissionChecker | 0         |
-| tokenLogic                    | 0           |
-| cashout                       | 0           |
+| giveBirth                     | 33,250,000 |
+| approve                       | 21,899,374 |
+| burnTokensAndWithdrawKitties  | 17,116,814 |
+| fulfillBasicOrder_efficient_6GL6yc | 14,922,677 |
+| createSaleAuction             | 13,126,224 |
+| matchAdvancedOrders           | 11,823,290 |
+| depositKittiesAndMintTokens   | 11,797,800 |
+| transfer                      | 9,958,161 |
+| bid                           | 9,298,092 |
+| breedWithAuto                 | 8,175,641 |
+| fulfillAvailableAdvancedOrders | 8,087,415 |
+| invoke1CosignerSends          | 6,940,703 |
+| cancelAuction                 | 6,031,156 |
+| bulkTransfer                  | 2,428,875 |
+| matchOrders                   | 1,619,058 |
+| createSiringAuction           | 1,133,520 |
+| unknown                       | 1,094,080 |
+| execTransaction               | 877,427 |
+| buyAndRedeem                  | 829,049 |
+| fulfillBasicOrder             | 326,513 |
+| execute                       | 274,144 |
+| fulfillAdvancedOrder          | 204,963 |
+| setAutoBirthFee               | 29,186 |
 
 </details>
 
@@ -1768,12 +2017,13 @@ Address : `0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc`
 Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <details>
- <summary><strong>Time Range</strong></summary>
- <br>
+<summary><strong>Time Range</strong></summary>
 
-| From   | To   |
-|--------|-------|
-| May 01 2021 | Jul 01 2021 |
+<br>
+
+| From        | To          |
+|-------------|-------------|
+| May 01 2021 | Jun 09 2021 |
 
 </details>
 
@@ -1782,12 +2032,12 @@ Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <br>
 
-| Metric                    | Value   |
-|--------------------------|---------|
-| Number of events         | 1,994 |
-| Number of internal txs   | 13,698 |
-| Number of inputs         | 20,876 |
-| Number of storage writes | 13,698 |
+| Metric                   | Count  |
+|--------------------------|--------|
+| Number of events         | 16,384 |
+| Number of internal txs   | 57 |
+| Number of inputs         | 14,388 |
+| Number of storage writes | 11,416 |
 
 </details>
 
@@ -1796,11 +2046,12 @@ Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <br>
 
-| Event | Count |
-|-------|-------|
-| ApprovalForAll | 4,709 |
-| Transfer | 12,163 |
-| Approval | 3,122 |
+| Event             | Count |
+|-------------------|-------|
+| Transfer          | 10,986 |
+| ApprovalForAll    | 3,430 |
+| Approval          | 1,860 |
+| undefined         | 108 |
 
 </details>
 
@@ -1809,21 +2060,18 @@ Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <br>
 
-| Function | Count |
-|----------|-------|
-| SetApprovalForAll | 4,710 |
-| mintApe | 2,095 |
-| transferFrom | 2,875 |
-| withdraw | 2 |
-| VotesAlreadyTallied | 2 |
-| approve | 200 |
-| safeTrasferFrom | 88 |
-| onERC721Received | 135 |
-| implementation | 67 |
-| fee | 134 |
-| unknown | 27 |
-| setProvenanceHash | 2 |
-| setBaseURI | 1 |
+| Function                                 | Count |
+|------------------------------------------|-------|
+| setApprovalForAll                        | 3,431 |
+| mintApe                                  | 2,089 |
+| transferFrom                             | 1,657 |
+| approve                                  | 113 |
+| safeTransferFrom                         | 61 |
+| unknown                                  | 21 |
+| Tranfer                                  | 3 |
+| withdraw                                 | 2 |
+| setProvenanceHash                        | 2 |
+| setBaseURI                               | 1 |
 
 </details>
 
@@ -1832,35 +2080,28 @@ Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <br>
 
-| Input | Count |
-|-------|-------|
-| operator | 4,710 |
-| approved | 4,710 |
-| to | 3,163 |
-| tokenId | 3,163 |
-| from | 2,963 |
-| numberOfTokens | 2,095 |
-| _data | 69 |
+| Input Name     | Count |
+|----------------|-------|
+| operator       | 3,431 |
+| approved       | 3,431 |
+| numberOfTokens | 2,089 |
+| to             | 1,831 |
+| tokenId        | 1,831 |
+| from           | 1,718 |
+| _data          | 54 |
 | provenanceHash | 2 |
-| baseURI | 1 |
+| baseURI        | 1 |
 
 </details>
 
 <details>
-<summary><strong>Number of Specific Storage Vars</strong></summary>
+<summary><strong>Number of Specific Storage Variables</strong></summary>
 
 <br>
 
-| Storage Variable | Count |
-|-----------------|-------|
-| _operatorApprovals | 4,709 |
-| _tokenApprovals | 3,122 |
-| MAX_APES | 1,953 |
-| startingIndexBlock | 1,953 |
-| saleIsActive | 1,953 |
-| _owner | 5 |
-| BAYC_PROVENANCE | 2 |
-| _baseURI | 1 |
+| Storage | Count |
+|---------|-------|
+| (none)  | 0     |
 
 </details>
 
@@ -1869,12 +2110,12 @@ Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <br>
 
-| Metric | Value |
-|--------|-------|
-| Average internal per tx | 4.83 |
-| Average number of events | 2.00 |
-| Average state vars touched | 1.37 |
-| Average inputs | 2.09 |
+| Metric                          | Value |
+|--------------------------------|-------|
+| Average internal per tx        | 0.01 |
+| Average number of events       | 2.25 |
+| Average state vars touched     | 1.55 |
+| Average number of inputs       | 1.95 |
 
 </details>
 
@@ -1883,66 +2124,61 @@ Address : `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D`
 
 <br>
 
-| Activity | Count |
-|----------|-------|
-| CALL | 70 |
-| STATICCALL | 134 |
-| DELEGATECALL | 134 |
+| Internal Call Type | Count |
+|--------------------|-------|
+| CALL               | 57 |
 
 </details>
 
 <details>
-<summary><strong>Specific Functions in Internal Calls</strong></summary>
+<summary><strong>Functions Called Inside Internal Transactions</strong></summary>
 
 <br>
 
-| Function | Count |
-|----------|-------|
-| onERC721Received | 135 |
-| fee | 134 |
-| implementation | 67 |
-| VotesAlreadyTallied | 2 |
+| Function                         | Count |
+|----------------------------------|-------|
+| onERC721Received                 | 55 |
+| transfer                         | 2 |
 
 </details>
 
 <details>
-<summary><strong>Number of Contracts Called</strong></summary>
+<summary><strong>Unique Contracts Called</strong></summary>
 
 <br>
 
-**6 unique contracts**
+| Metric                  | Value |
+|------------------------|--------|
+| Unique contracts count | 4 |
 
-| Contract Address | Count |
-|-----------------|-------|
-| 0x5b8df3131d65beb140a2700f06b78f99d0918697 | 67 |
-| 0x0f4676178b5c53ae0a655f1b19a96387e4b8b5f2 | 67 |
-| 0xc53d0a52358ff0f0e4dfe93a1f0c84d2b17e68df | 55 |
-| 0x1813c4485a36642347c244a00617377bafdbe401 | 55 |
-| 0x94eef006d2691be320632ea05c0789aae1b8b82b | 12 |
-| 0x9a5c87aa68d2199f68ca0c5e77c1127957099e54 | 12 |
+### Contract Address Occurrences
+
+| Address | Count |
+|---------|-------|
+| 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d | 7,380 |
+| 0x7c15561590fc9eb063b3803b55165633eef207ec | 54 |
+| 0xaba7161a7fb69c88e16ed9f455ce62b791ee4d03 | 2 |
+| 0x7bbee53f62e90b5da311975119dacaae88f9e3c5 | 1 |
 
 </details>
 
 <details>
-<summary><strong>Gas Used per Function</strong></summary>
+<summary><strong>Gas Used Per Function</strong></summary>
 
 <br>
 
-| Function | Gas Used |
-|----------|----------|
-| setApprovalForAll | 214,325,208 |
-| mintApe | 1,161,038,674 |
-| transferFrom | 245,477,426 |
-| withdraw | 60,912 |
-| VotesAlreadyTallied | 0 |
-| approve | 10,328,532 |
-| safeTrasferFrom | 12,110,789 |
-| onERC721Received | 9,219,279 |
-| implementation | 158,187 |
-| fee | 801,647 |
-| unknown | 585,776 |
-| setProvenanceHash | 145,165 |
-| setBaseURI | 30,705 |
+| Function                      | Gas Used     |
+|-------------------------------|--------------|
+| mintApe                       | 1,160,868,778 |
+| setApprovalForAll             | 155,611,744 |
+| transferFrom                  | 143,519,020 |
+| safeTransferFrom              | 8,987,722 |
+| approve                       | 5,998,038 |
+| unknown                       | 458,118 |
+| setProvenanceHash             | 145,165 |
+| Tranfer                       | 63,000 |
+| withdraw                      | 60,912 |
+| setBaseURI                    | 30,705 |
 
 </details>
 
