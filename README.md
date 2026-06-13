@@ -1576,7 +1576,7 @@ Address : `0x323a76393544d5ecca80cd6ef2a560c6a395b7e3`
 
 ---
 
-## Contract Name: 0x35d1b3f3d7966a1dfe207aa4514c12a259a0492b 1
+## Contract Name: Vat
 Address : `0x35d1b3f3d7966a1dfe207aa4514c12a259a0492b`
 
 <details>
