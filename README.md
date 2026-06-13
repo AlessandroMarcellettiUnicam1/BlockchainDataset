@@ -2,6 +2,152 @@
 
 # Contract statistics
 
+## Contract Name: ENSRegistryWithFallback
+Address : `0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e`
+
+<details>
+<summary><strong>Time Range</strong></summary>
+
+<br>
+
+| From | To |
+|---|---|
+| Sep 29 2022 | Oct 29 2022 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric | Count |
+|---|---|
+| Number of events | 14,035 |
+| Number of internal | 0 |
+| Number of inputs | 33,559 |
+| Number of storage | 1 |
+
+| Metric | Value |
+|---|---|
+| Average number of internal txs | 0.00 |
+| Average number of events | 1.40 |
+| Average state vars touched | 0.00 |
+| Average inputs | 3.36 |
+| Average gas per transaction | 50,278.31 |
+
+| Scope | Unique Functions |
+|---|---|
+| External (functionName) | 5 |
+| Internal (activity) | 0 |
+| **Total (external + internal)** | **5** |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|---|---|
+| NewResolver | 6,347 |
+| NewOwner | 4,705 |
+| Transfer | 2,979 |
+| NewTTL | 3 |
+| ApprovalForAll | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|---|---|
+| setSubnodeRecord | 4,425 |
+| setOwner | 2,999 |
+| setResolver | 2,288 |
+| setSubnodeOwner | 286 |
+| unknown | 1 |
+| setApprovalForAll | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|---|---|
+| node | 9,998 |
+| owner | 7,710 |
+| resolver | 6,713 |
+| label | 4,711 |
+| ttl | 4,425 |
+| operator | 1 |
+| approved | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Variables</strong></summary>
+
+<br>
+
+| Storage | Count |
+|---|---|
+| operators | 1 |
+
+</details>
+
+<details>
+<summary><strong>Specific Internal Activities</strong></summary>
+
+<br>
+
+_No internal activity._
+
+</details>
+
+<details>
+<summary><strong>Functions Called Inside Internal Transactions</strong></summary>
+
+<br>
+
+_No internal function calls detected._
+
+</details>
+
+<details>
+<summary><strong>Unique Contracts Called</strong></summary>
+
+<br>
+
+_No unique contracts called._
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|---|---|
+| setSubnodeRecord | 304,831,417 |
+| setResolver | 100,964,128 |
+| setOwner | 87,538,366 |
+| setSubnodeOwner | 9,382,114 |
+| setApprovalForAll | 46,100 |
+| unknown | 21,000 |
+
+</details>
+
+---
+
 ## Contract Name: Deposit Contract
 Address : `0x00000000219ab540356cbb839cbe05303d7705fa`
 
@@ -1425,6 +1571,160 @@ Address : `0x323a76393544d5ecca80cd6ef2a560c6a395b7e3`
 | COUNTING_MODE | 21,920 |
 | votingPeriod | 21,470 |
 | votingDelay | 21,447 |
+
+</details>
+
+---
+
+## Contract Name: 0x35d1b3f3d7966a1dfe207aa4514c12a259a0492b 1
+Address : `0x35d1b3f3d7966a1dfe207aa4514c12a259a0492b`
+
+<details>
+<summary><strong>Time Range</strong></summary>
+
+<br>
+
+| From | To |
+|---|---|
+| Nov 18 2019 | Aug 26 2025 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric | Count |
+|---|---|
+| Number of events | 2,411 |
+| Number of internal | 0 |
+| Number of inputs | 2,699 |
+| Number of storage | 0 |
+
+| Metric | Value |
+|---|---|
+| Average number of internal txs | 0.00 |
+| Average number of events | 0.99 |
+| Average state vars touched | 0.00 |
+| Average inputs | 1.10 |
+| Average gas per transaction | 45,872.03 |
+
+| Scope | Unique Functions |
+|---|---|
+| External (functionName) | 9 |
+| Internal (activity) | 0 |
+| **Total (external + internal)** | **9** |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|---|---|
+| unknown | 2,411 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|---|---|
+| hope | 2,327 |
+| flux | 40 |
+| nope | 27 |
+| move | 25 |
+| frob | 16 |
+| init | 5 |
+| ilks | 3 |
+| unknown | 2 |
+| dai | 1 |
+| fork | 1 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|---|---|
+| usr | 2,354 |
+| src | 66 |
+| dst | 66 |
+| ilk | 46 |
+| wad | 40 |
+| rad | 25 |
+| dink | 17 |
+| dart | 17 |
+| i | 16 |
+| u | 16 |
+| v | 16 |
+| w | 16 |
+| unknown | 4 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Variables</strong></summary>
+
+<br>
+
+_No storage variables written._
+
+</details>
+
+<details>
+<summary><strong>Specific Internal Activities</strong></summary>
+
+<br>
+
+_No internal activity._
+
+</details>
+
+<details>
+<summary><strong>Functions Called Inside Internal Transactions</strong></summary>
+
+<br>
+
+_No internal function calls detected._
+
+</details>
+
+<details>
+<summary><strong>Unique Contracts Called</strong></summary>
+
+<br>
+
+_No unique contracts called._
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|---|---|
+| hope | 107,458,240 |
+| flux | 1,641,161 |
+| frob | 1,206,774 |
+| move | 955,287 |
+| nope | 621,879 |
+| init | 113,075 |
+| fork | 95,686 |
+| ilks | 90,658 |
+| unknown | 42,140 |
+| dai | 23,968 |
 
 </details>
 
@@ -3412,7 +3712,7 @@ _No storage variables written._
 
 ---
 
-## Contract Name: Aave: Pool V3
+## Contract Name: Contract 0x8787...a4e2
 Address : `0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2`
 
 <details>
@@ -28570,6 +28870,157 @@ Address : `0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f`
 | swapTokenV2 | 375,290 |
 | executeSwap | 252,282 |
 | getAmountsOut | 123,960 |
+
+</details>
+
+---
+
+## Contract Name: Loot
+Address : `0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7`
+
+<details>
+<summary><strong>Time Range</strong></summary>
+
+<br>
+
+| From | To |
+|---|---|
+| Aug 27 2021 | Aug 30 2021 |
+
+</details>
+
+<details>
+<summary><strong>General Statistics</strong></summary>
+
+<br>
+
+| Metric | Count |
+|---|---|
+| Number of events | 8,940 |
+| Number of internal | 0 |
+| Number of inputs | 11,155 |
+| Number of storage | 55,943 |
+
+| Metric | Value |
+|---|---|
+| Average number of internal txs | 0.00 |
+| Average number of events | 0.89 |
+| Average state vars touched | 5.59 |
+| Average inputs | 1.12 |
+| Average gas per transaction | 123,562.95 |
+
+| Scope | Unique Functions |
+|---|---|
+| External (functionName) | 5 |
+| Internal (activity) | 0 |
+| **Total (external + internal)** | **5** |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Events</strong></summary>
+
+<br>
+
+| Event | Count |
+|---|---|
+| Transfer | 7,893 |
+| ApprovalForAll | 925 |
+| Approval | 122 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Functions</strong></summary>
+
+<br>
+
+| Function | Count |
+|---|---|
+| claim | 8,919 |
+| setApprovalForAll | 927 |
+| transferFrom | 123 |
+| unknown | 21 |
+| ownerClaim | 5 |
+| approve | 4 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Inputs</strong></summary>
+
+<br>
+
+| Input | Count |
+|---|---|
+| tokenId | 9,051 |
+| operator | 927 |
+| approved | 927 |
+| to | 127 |
+| from | 123 |
+
+</details>
+
+<details>
+<summary><strong>Number of Specific Storage Variables</strong></summary>
+
+<br>
+
+| Storage | Count |
+|---|---|
+| _owners | 7,896 |
+| _balances | 7,893 |
+| _ownedTokens | 7,892 |
+| _ownedTokensIndex | 7,892 |
+| _allTokensIndex | 7,774 |
+| _status | 7,774 |
+| _allTokens | 7,774 |
+| _operatorApprovals | 925 |
+| _tokenApprovals | 122 |
+| _owner | 1 |
+
+</details>
+
+<details>
+<summary><strong>Specific Internal Activities</strong></summary>
+
+<br>
+
+_No internal activity._
+
+</details>
+
+<details>
+<summary><strong>Functions Called Inside Internal Transactions</strong></summary>
+
+<br>
+
+_No internal function calls detected._
+
+</details>
+
+<details>
+<summary><strong>Unique Contracts Called</strong></summary>
+
+<br>
+
+_No unique contracts called._
+
+</details>
+
+<details>
+<summary><strong>Gas Used per Function</strong></summary>
+
+<br>
+
+| Function | Gas Used |
+|---|---|
+| claim | 1,182,287,091 |
+| setApprovalForAll | 41,930,357 |
+| transferFrom | 10,409,047 |
+| unknown | 441,280 |
+| ownerClaim | 265,144 |
+| approve | 173,006 |
 
 </details>
 
